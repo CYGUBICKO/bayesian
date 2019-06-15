@@ -26,6 +26,19 @@ Sources += $(wildcard *.R *.md)
 
 tcell_ex3.Rout: tcell_ex3.R
 
+# Example 4: Gene expression data
+## ln -fs ~/grive/McMaster/PhD/Readings-Materials/Books/Book-Codes/Nonparametric-bayesian
+## ln -fs ~/grive/McMaster/PhD/Readings-Materials/Books/Book-Codes/Nonparametric-bayesian/Epildata.txt
+
+gene_ex4.Rout: gene_ex4.R
+
+epilepsy.Rout: epilepsy.R
+
+## MCMC
+simpleMCMC.Rout: simpleMCMC.R
+
+myMCMC.Rout: myMCMC.R
+
 
 ######################################################################
 

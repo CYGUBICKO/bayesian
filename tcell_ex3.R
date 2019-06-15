@@ -155,6 +155,18 @@ sampleDP <- function(N = 10
 		, G0cdf = G0cdf
 	)
 }
+
+## run the commands below - best line by line
+
+ex <- function()
+{
+    sampleDP(plt.spl=T,cdf=F,plt.Ghat=T, ltype = "n")
+    legend(3,0.65, legend=c("E(G | y)", "G ~ p(G | y)", "Ghat (pins)"),
+           lty=c(1,2,1), lwd=c(3,1,1),bty="n")
+}
+
+ex()
+
 yf
 xf
 sampleDP(ltype = "l")
